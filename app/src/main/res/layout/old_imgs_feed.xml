@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?><!-- item_feed.xml -->
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="4dp"
+    android:elevation="10dp"
+    card_view:cardCornerRadius="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/old_img"
+            android:layout_width="220px"
+            android:layout_height="250px"
+            android:layout_weight="1"
+            card_view:srcCompat="@drawable/noimg" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp">
+
+            <mycodlabs.utils.MYButton
+                android:id="@+id/btn_delet_img"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="Delete"
+                android:layout_weight="1"
+                android:textSize="10dp"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="@drawable/signupbutton"
+                android:layout_marginBottom="5dp"
+
+               />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

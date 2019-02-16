@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?><!-- item_feed.xml -->
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="4dp"
+    android:elevation="10dp"
+    card_view:cardCornerRadius="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/section_color"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+           >
+        <!--<ImageView-->
+            <!--android:id="@+id/ivUserProfile"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:tint="@color/style_color_primary"-->
+            <!--android:src="@drawable/icon_profile" />-->
+           <mycodlabs.utils.MYBoldTextView
+
+                android:id="@+id/eventname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Eventnme"
+                android:textColor="@color/style_color_primary"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+       <mycodlabs.utils.MYTextView
+            android:layout_width="match_parent"
+            android:id="@+id/postuname"
+            android:layout_below="@id/eventname"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:layout_gravity="left"
+            android:text="yoonus" />
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/vImageRoot"
+            android:layout_width="match_parent"
+
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/ivFeedCenter"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:layout_centerHorizontal="true"
+                android:scaleType="centerCrop" />
+
+            <!--<com.glide.slider.library.SliderLayout-->
+                <!--android:id="@+id/item_slider"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="200dp"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_alignParentStart="true"/>-->
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp">
+
+       <!---->
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:background="@color/divider"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_marginBottom="10dp">-->
+
+        <!--</LinearLayout>-->
+
+       <mycodlabs.utils.MYTextView
+
+            android:id="@+id/ivFeedBottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:text="blablallabasjbjsadjsahjba sadhjsafjfasdjfsdjhgsadgjsdhfsdgjsdf ffffffffffffffffffffffffffffffffffgjsjgshjggsfjgasjgjdfsgjsdfgasdjdsfjhdjjsdfhjsdfh"
+            android:gravity="start"
+            android:maxLines="5"
+            android:layout_marginTop="5dp"
+           android:layout_marginBottom="5dp"
+            android:textColor="@color/cast_expanded_controller_background_color"
+            android:textSize="14sp" />
+    </LinearLayout>
+        <include
+            layout="@layout/item_divider"/>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+       >
+
+        <LinearLayout
+            android:layout_width="45dp"
+
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="right"
+            >
+
+
+            <ImageView
+                android:id="@+id/image_clender"
+                android:layout_width="45dp"
+                android:layout_height="20dp"
+                android:padding="3dp"
+                android:layout_gravity="center"
+                android:tint="@color/style_color_primary_dark"
+                card_view:srcCompat="@drawable/icon_calendar"/>
+
+
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_weight=".3"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp">
+       <mycodlabs.utils.MYTextView
+
+            android:id="@+id/dateTime"
+            android:layout_width="match_parent"
+            android:textColor="@color/cast_expanded_controller_background_color"
+            android:textAlignment="viewStart"
+            android:layout_weight="1"
+            android:text="12/13/2014"
+            android:layout_height="wrap_content" />
+
+
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight=".1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="right"
+            >
+
+
+            <ImageView
+                android:id="@+id/imageClock"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:padding="3dp"
+                android:tint="@color/style_color_primary_dark"
+                card_view:srcCompat="@drawable/icons8_timer" />
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight=".3"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp">
+
+           <mycodlabs.utils.MYTextView
+
+                android:id="@+id/text_duration"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="10hurs"
+                android:textAlignment="viewStart"
+                android:textColor="@color/cast_expanded_controller_background_color" />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imagelocation"
+                android:layout_width="45dp"
+                android:layout_height="20dp"
+                android:tint="@color/style_color_primary_dark"
+                card_view:srcCompat="@drawable/imarke" />
+           <mycodlabs.utils.MYTextView
+                android:id="@+id/venue"
+                android:layout_width="match_parent"
+                android:textColor="@color/cast_expanded_controller_background_color"
+                android:textAlignment="viewStart"
+                android:layout_weight="1"
+                android:text="location"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:paddingLeft="8dp"
+            android:gravity="center"
+            android:background="@color/section_color"
+            android:paddingRight="8dp">
+
+            <ImageButton
+                android:id="@+id/btnLike"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:tint="@color/style_color_primary"
+                android:background="@drawable/btn_feed_action"
+                android:src="@drawable/ic_heart_outline_grey" />
+
+            <ImageButton
+                android:id="@+id/btnComments"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:tint="@color/style_color_primary"
+                android:background="@drawable/btn_feed_action"
+                android:src="@drawable/ic_comment_outline_grey" />
+
+            <ImageButton
+                android:id="@+id/btninfo"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:tint="@color/style_color_primary"
+                android:background="@drawable/btn_feed_action"
+                android:src="@drawable/ic_more_grey_90" />
+            <!--<mycodlabs.utils.MYButton-->
+                <!--android:id="@+id/btninfo"-->
+                <!--android:layout_width="48dp"-->
+                <!--android:layout_height="48dp"-->
+                <!--android:text="more"-->
+                <!--android:textSize="10dp"-->
+                <!--android:layout_marginBottom="5dp"/>-->
+                <!--style="?android:attr/borderlessButtonStyle"-->
+                <!--android:background="@drawable/signupbutton"-->
+
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:visibility="gone"
+                android:gravity="center_vertical|right">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_heart_small_blue" />
+
+                <TextSwitcher
+                    android:id="@+id/tsLikesCounter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:inAnimation="@anim/slide_in_likes_counter"
+                    android:outAnimation="@anim/slide_out_likes_counter">
+
+                   <mycodlabs.utils.MYTextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/totalLikes"
+                        android:visibility="gone"
+                        android:text="123 likes"
+                        android:textColor="@color/text_like_counter" />
+
+                   <mycodlabs.utils.MYTextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        android:textColor="@color/text_like_counter" />
+                </TextSwitcher>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

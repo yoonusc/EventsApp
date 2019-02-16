@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/activity_register"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/email_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <mycodlabs.utils.MYTextInutLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <mycodlabs.utils.MYEditTextView
+                    android:id="@+id/event_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Event Name"
+                    android:inputType="text" />
+
+        </mycodlabs.utils.MYTextInutLayout>
+
+            <Spinner
+                android:id="@+id/category_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:entries="@array/select_an_item" />
+
+            <Spinner
+                android:id="@+id/usertype_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:entries="@array/select_an_item" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                   <mycodlabs.utils.MYTextView
+
+                        android:id="@+id/in_date"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Date"
+                        android:textColor="#212121"
+                        android:textSize="16dp"/>
+
+
+                <mycodlabs.utils.MYButton
+                    android:id="@+id/btn_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="Select Date" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                   <mycodlabs.utils.MYTextView
+
+                        android:id="@+id/in_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Time"
+                        android:textColor="#212121"
+                        android:textSize="16dp"
+                        />
+
+                <mycodlabs.utils.MYButton
+                    android:id="@+id/btn_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="Select Time" />
+            </RelativeLayout>
+
+
+            <mycodlabs.utils.MYTextInutLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <mycodlabs.utils.MYEditTextView
+                    android:id="@+id/venue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Venue"
+                    android:inputType="text" />
+        </mycodlabs.utils.MYTextInutLayout>
+
+            <mycodlabs.utils.MYTextInutLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <mycodlabs.utils.MYEditTextView
+                    android:id="@+id/details"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Details"
+                    android:inputType="textMultiLine"
+
+                    android:minLines="3" />
+        </mycodlabs.utils.MYTextInutLayout>
+
+            <mycodlabs.utils.MYButton
+                android:id="@+id/bAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Add Event" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

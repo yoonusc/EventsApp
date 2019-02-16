@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newbg">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView"-->
+                <!--android:layout_width="80dp"-->
+                <!--android:layout_height="80dp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_marginTop="30dp"-->
+                <!--android:src="@drawable/investo_logo" />-->
+
+           <mycodlabs.utils.MYTextView
+
+                android:id="@+id/appname"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/img_toolbar_logo"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#d0cdd1"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginTop="-30dp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/mail"
+                android:src="@drawable/mail"/>
+
+            <mycodlabs.utils.MYEditTextView
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/line"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="25dp"
+                android:hint="E-mail"
+                android:textColor="#d0cdd1"
+                android:textColorHint="#d0cdd1"
+                android:backgroundTint="#efefef"/>
+
+
+
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="left|center_vertical"
+                android:id="@+id/impassword"
+                android:src="@drawable/password"/>
+
+            <mycodlabs.utils.MYEditTextView
+                android:id="@+id/password"
+                android:textColor="#d0cdd1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="30dp"
+                android:hint="Password"
+                android:textColorHint="#d0cdd1"
+                android:inputType="textPassword"
+                android:backgroundTint="#efefef"/>
+
+        </FrameLayout>
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="-40dp">
+
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                <mycodlabs.utils.MYButton
+                    android:id="@+id/singin"
+                    android:layout_width="500dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/box_with_click_effect"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#ffffff"
+                    android:textAllCaps="false"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:text="Sign in"
+                    />
+
+                    <mycodlabs.utils.MYButton
+                    android:id="@+id/signups"
+                    android:layout_below="@+id/singin"
+                    android:layout_width="500dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/signupbutton"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#fdfdfd"
+                    android:textAllCaps="false"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:text="Sign up"
+                    />
+
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+               <mycodlabs.utils.MYTextView
+
+                    android:id="@+id/text_gust"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/forgot_password"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="35dp"
+                    android:text="Guest User ? "
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#fdfdfd"
+                    android:textColorLink="@color/abc_primary_text_material_light"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+               <mycodlabs.utils.MYTextView
+
+                    android:id="@+id/forgot_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="11dp"
+                    android:text="Forgot password ?"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#fdfdfd"
+                    android:textColorLink="@color/abc_primary_text_material_light"
+                    android:textStyle="italic" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--<ScrollView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:background="@color/colorPrimary"
+        android:id="@+id/b">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_centerInParent="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/img_toolbar_logo" />
+            <mycodlabs.utils.MYTextView
+                android:layout_below="@id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Registration"
+                android:gravity="center"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+           <mycodlabs.utils.MYTextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Basic Information"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/textView3"
+                android:textColor="#2269d4" />
+
+            <mycodlabs.utils.MYEditTextView
+                android:id="@+id/editFullName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView3"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#86aae0"
+                android:hint="UserName"
+                android:inputType="textEmailAddress"
+                android:textSize="15dp" />
+
+            <mycodlabs.utils.MYEditTextView
+                android:id="@+id/editMailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:layout_marginLeft="50dp"
+                android:textSize="15dp"
+                android:layout_marginRight="50dp"
+                android:layout_below="@+id/editFullName"
+                android:layout_marginTop="10dp"
+                android:hint="Email id."
+                android:backgroundTint="#86aae0"/>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+           <mycodlabs.utils.MYTextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Private Information"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/textView4"
+                android:textColor="#2269d4" />
+
+            <mycodlabs.utils.MYEditTextView
+                android:id="@+id/editPasswordS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:textSize="15dp"
+                android:layout_below="@+id/textView4"
+                android:layout_marginTop="10dp"
+                android:inputType="textPassword"
+                android:hint="Password"
+                android:backgroundTint="#86aae0"/>
+
+            <mycodlabs.utils.MYEditTextView
+                android:id="@+id/editPasswordC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:textSize="15dp"
+                android:layout_marginRight="50dp"
+                android:layout_below="@+id/editPasswordS"
+                android:layout_marginTop="10dp"
+                android:inputType="textPassword"
+                android:hint="Confirm Password"
+                android:backgroundTint="#86aae0"/>
+
+            <mycodlabs.utils.MYEditTextView
+                android:id="@+id/editMobileNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:layout_marginLeft="50dp"
+                android:textSize="15dp"
+                android:layout_marginRight="50dp"
+                android:layout_below="@+id/editPasswordC"
+                android:layout_marginTop="10dp"
+                android:hint="Mobile No"
+                android:backgroundTint="#86aae0"/>
+
+
+            <mycodlabs.utils.MYButton
+                android:id="@+id/signup"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="500dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/editMobileNo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/box_with_click_effect"
+                android:text="Sign up"
+                android:textAllCaps="false"
+                android:textColor="#ffffff" />
+
+        </RelativeLayout>
+    </LinearLayout>
+    <!--</ScrollView>-->
+
+</LinearLayout>

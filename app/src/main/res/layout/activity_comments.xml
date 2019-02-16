@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CommentsActivity">
+
+
+        <include layout="@layout/eventotool" />
+
+    <LinearLayout
+        android:id="@+id/contentRoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:background="@color/bg_comments"
+        android:elevation="@dimen/default_elevation"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvComments"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/shadow_top" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+
+            <mycodlabs.utils.MYEditTextView
+                android:id="@+id/text_gust_user_Name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="1"
+                android:textColor="#555555"
+                android:hint="Enetr Your Name"
+                android:inputType="textMultiLine" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llAddComment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_comments"
+            android:elevation="@dimen/default_elevation"
+            android:padding="10dp"
+            android:gravity="center_vertical"
+            android:paddingBottom="4dp">
+
+            <mycodlabs.utils.MYEditTextView
+                android:id="@+id/etComment"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Enter Comment "
+                android:textColor="#555555"
+                android:textSize="14sp" />
+
+            <mycodlabs.instapp.SendCommentButton
+                android:id="@+id/btnSendComment"
+                android:layout_width="72dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/btn_send_comment"
+                android:elevation="4dp"
+                android:orientation="vertical" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="TypographyDashes">
+
+    <plurals name="likes_count">
+        <item quantity="one">%d like</item>
+        <item quantity="other">%d likes</item>
+    </plurals>
+    <string-array name="user_photos">
+        <item>http://scontent-a-fra.cdninstagram.com/hphotos-xpf1/t51.2885-15/s306x306/e15/10665483_429615813855717_1490926670_n.jpg</item>
+        <item>http://scontent-b-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10891026_694434897342602_1094773634_n.jpg</item>
+        <item>http://scontent-a-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10894920_1382218332084671_10354293_n.jpg</item>
+        <item>http://scontent-b-fra.cdninstagram.com/hphotos-xfa1/t51.2885-15/s306x306/e15/10895429_768163716566132_692639371_n.jpg</item>
+        <item>http://scontent-b-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10899087_405295322969722_20422376_n.jpg</item>
+        <item>http://scontent-a-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10899123_922231267802027_1123900984_n.jpg</item>
+        <item>http://scontent-a-fra.cdninstagram.com/hphotos-xfa1/t51.2885-15/s306x306/e15/10903214_589111004559561_1485881959_n.jpg</item>
+        <item>http://scontent-a-fra.cdninstagram.com/hphotos-xfa1/t51.2885-15/s306x306/e15/10914479_770066599745785_704061869_n.jpg</item>
+        <item>http://scontent-a-fra.cdninstagram.com/hphotos-xfa1/t51.2885-15/s306x306/e15/10914587_1580079332227764_829762970_n.jpg</item>
+        <item>http://scontent-b-fra.cdninstagram.com/hphotos-xfa1/t51.2885-15/s306x306/e15/10919231_605000369644967_1578007175_n.jpg</item>
+        <item>http://scontent-b-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10932142_330866587116424_1327271556_n.jpg</item>
+        <item>http://scontent-b-fra.cdninstagram.com/hphotos-xfa1/t51.2885-15/s306x306/e15/10932410_1544715455813452_1107632347_n.jpg</item>
+        <item>http://scontent-a-fra.cdninstagram.com/hphotos-xfp1/t51.2885-15/s306x306/e15/891516_579817258815508_1989379587_n.jpg</item>
+        <item>http://scontent-b-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/1922172_719849754801056_911351010_n.jpg</item>
+        <item>http://scontent-b-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10914370_1519297625009641_722250486_n.jpg</item>
+        <item>http://scontent-a-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10903746_368501953321344_2002746420_n.jpg</item>
+        <item>http://scontent-b-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10903270_1397263717236338_950192395_n.jpg</item>
+        <item>http://scontent-a-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10903242_441936642627221_576882729_n.jpg</item>
+        <item>http://scontent-a-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10899295_796858437028648_664655000_n.jpg</item>
+        <item>http://scontent-b-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10899139_948470841831743_1406659049_n.jpg</item>
+        <item>http://scontent-a-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10899123_922231267802027_1123900984_n.jpg</item>
+        <item>http://scontent-b-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10899087_405295322969722_20422376_n.jpg</item>
+    </string-array>
+
+
+
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Welcome!</string>
+    <string name="slide_1_desc">Manage your Events from any where any time </string>
+
+    <string name="slide_2_title">Make your events social</string>
+    <string name="slide_2_desc"> You can share your events around the glob </string>
+    <string name="slide_3_title">Browse Events Around you</string>
+    <string name="slide_3_desc">Find and fix your favorite events </string>
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="user_profile_photo">http://igcdn-photos-f-a.akamaihd.net/hphotos-ak-xpa1/t51.2885-19/929118_455075441302693_1605108410_a.jpg</string>
+    <!--  <string name="base_url">http://192.168.42.190/event/"</string>
+    <string name="listAll_url">http://192.168.42.190/event/listAll.php"</string>
+    <string name="listPast_url">http://192.168.42.190/event/listPast.php"</string>
+    <string name="listOrganised_url">http://192.168.42.190/event/listOrganised.php"</string>
+    <string name="listBookmark_url">http://192.168.42.190/event/listBookmark.php"</string>
+    <string name="event_display_url">http://192.168.42.190/event/getEvent.php</string>
+    <string name="category_url">http://192.168.42.190/event/category.php</string>
+    <string name="get_media">http://192.168.42.190/event/getImage.php?eventId=</string>
+    <string name="addEvent_url">http://192.168.42.190/event/addEvent.php</string>
+    <string name="updateEvent_url">http://192.168.42.190/event/updateEvent.php</string>
+    <string name="deleteEvent_url">http://192.168.42.190/event/deleteEvent.php</string>
+    <string name="usertype_url">http://192.168.42.190/event/usertype.php</string>
+    <string name="categoryRegister_url">http://192.168.42.190/event/categoryRegister.php</string>
+
+
+    <string name="Register_url">http://192.168.42.190/event/Register.php</string>
+    <string name="Login_url">http://192.168.42.190/event/Login.php</string>
+    <string name="usertypeRegister_url">http://192.168.42.190/event/usertypeRegister.php</string>
+
+    <string name="getBookmark_url">http://192.168.42.190/event/getBookmark.php</string>
+    <string name="toggleBookmark_url">http://192.168.42.190/event/toggleBookmark.php</string>
+
+    <string name="getInfo_url">http://192.168.42.190/event/getInfo.php</string>
+    <string name="updateFCMtoken_url">http://192.168.42.190/event/updateFCMtoken.php</string>
+
+    <string name="changePassword_url">http://192.168.42.190/event/changePassword.php</string>-->
+
+
+
+
+
+
+
+
+
+  <string name="base_url">http://192.168.42.190/event/"</string>
+    <string name="listAll_url">http://192.168.42.190/event/listAll.php"</string>
+    <string name="listPast_url">http://192.168.42.190/event/listPast.php"</string>
+    <string name="listOrganised_url">http://192.168.42.190/event/listOrganised.php"</string>
+    <string name="listBookmark_url">http://192.168.42.190/event/listBookmark.php"</string>
+    <string name="event_display_url">http://192.168.42.190/event/getEvent.php</string>
+    <string name="category_url">http://192.168.42.190/event/category.php</string>
+    <string name="get_media">http://192.168.42.190/event/getImage.php?eventId=</string>
+    <string name="addEvent_url">http://192.168.42.190/event/addEvent.php</string>
+    <string name="updateEvent_url">http://192.168.42.190/event/updateEvent.php</string>
+    <string name="deleteEvent_url">http://192.168.42.190/event/deleteEvent.php</string>
+    <string name="deleteEvent_Image">http://192.168.42.190/event/deleteImage.php</string>
+    <string name="usertype_url">http://192.168.42.190/event/usertype.php</string>
+    <string name="categoryRegister_url">http://192.168.42.190/event/categoryRegister.php</string>
+
+
+    <string name="Register_url">http://192.168.42.190/event/Register.php</string>
+    <string name="Login_url">http://192.168.42.190/event/Login.php</string>
+    <string name="usertypeRegister_url">http://192.168.42.190/event/usertypeRegister.php</string>
+
+    <string name="getBookmark_url">http://192.168.42.190/event/getBookmark.php</string>
+    <string name="toggleBookmark_url">http://192.168.42.190/event/toggleBookmark.php</string>
+    <string name="addComment">http://192.168.42.190/event/addComment.php</string>
+    <string name="deleteComment">http://192.168.42.190/event/deleteComment.php</string>
+    <string name="getComment">http://192.168.42.190/event/getComments.php</string>
+    <string name="getInfo_url">http://192.168.42.190/event/getInfo.php</string>
+    <string name="updateFCMtoken_url">http://192.168.42.190/event/updateFCMtoken.php</string>
+
+    <string name="changePassword_url">http://192.168.42.190/event/changePassword.php</string>
+
+
+
+<!--<string name="base_url">http://192.168.42.190/event/"</string>
+    <string name="listAll_url">http://192.168.42.190/event/listAll.php"</string>
+    <string name="listPast_url">http://192.168.42.190/event/listPast.php"</string>
+    <string name="listOrganised_url">http://192.168.42.190/event/listOrganised.php"</string>
+    <string name="listBookmark_url">http://192.168.42.190/event/listBookmark.php"</string>
+    <string name="event_display_url">http://192.168.42.190/event/getEvent.php</string>
+    <string name="category_url">http://192.168.42.190/event/category.php</string>
+    <string name="get_media">http://192.168.42.190/event/getImage.php?eventId=</string>
+    <string name="addEvent_url">http://192.168.42.190/event/addEvent.php</string>
+    <string name="updateEvent_url">http://192.168.42.190/event/updateEvent.php</string>
+    <string name="deleteEvent_url">http://192.168.42.190/event/deleteEvent.php</string>
+    <string name="deleteEvent_Image">http://192.168.42.190/event/deleteImage.php</string>
+    <string name="usertype_url">http://192.168.42.190/event/usertype.php</string>
+    <string name="categoryRegister_url">http://192.168.42.190/event/categoryRegister.php</string>
+
+
+    <string name="Register_url">http://192.168.42.190/event/Register.php</string>
+    <string name="Login_url">http://192.168.42.190/event/Login.php</string>
+    <string name="usertypeRegister_url">http://192.168.42.190/event/usertypeRegister.php</string>
+
+    <string name="getBookmark_url">http://192.168.42.190/event/getBookmark.php</string>
+    <string name="toggleBookmark_url">http://192.168.42.190/event/toggleBookmark.php</string>
+    <string name="addComment">http://192.168.42.190/event/addComment.php</string>
+    <string name="deleteComment">http://192.168.42.190/event/deleteComment.php</string>
+    <string name="getComment">http://192.168.42.190/event/getComments.php</string>
+    <string name="getInfo_url">http://192.168.42.190/event/getInfo.php</string>
+    <string name="updateFCMtoken_url">http://192.168.42.190/event/updateFCMtoken.php</string>
+
+    <string name="changePassword_url">http://192.168.42.190/event/changePassword.php</string>
+-->
+
+
+
+    <string name="app_name">Eventizer</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+    <string name="firebase_pref">rpr.events.firebase_pref</string>
+    <string name="firebase_token">rpr.events.firebase_token</string>
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="select_an_item">
+        <item>Select an Item</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="category">
+        <item>General</item>
+        <item>Technical</item>
+        <item>Cultural</item>
+        <item>Sports</item>
+        <item>Seminar</item>
+        <item>Talk</item>
+    </string-array>
+
+    <string-array name="visible">
+        <item>All</item>
+        <item>Student</item>
+        <item>Staff</item>
+        <item>Faculty</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_nav_bar">NavBar</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="title_activity_test_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_scrolling2">ScrollingActivity2</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_past_event">PastEvent</string>
+    <string name="title_activity_edit_organised_event">EditOrganisedEvent</string>
+    <string name="title_activity_manage_subscription">ManageSubscription</string>
+
+</resources>
